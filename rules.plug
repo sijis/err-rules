@@ -1,0 +1,9 @@
+[Core]
+Name = Rules
+Module = rules
+
+[Python]
+Version=2+
+
+[Documentation]
+Description = Returns user defined links from short commands
