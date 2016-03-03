@@ -97,8 +97,10 @@ class Rules(BotPlugin):
 
         channels = self.keys()
 
-        self.send(msg.frm,
-                  'Rules established in: {0}'.format(', '.join(channels)),
-                  message_type=msg.type,
-                  in_reply_to=msg,
-                  groupchat_nick_reply=True)
+        self.send(
+            msg.frm,
+            'Rules established in: {0}'.format(', '.join(channels)),
+            message_type=msg.type,
+            in_reply_to=msg,
+            groupchat_nick_reply=True,
+        )
